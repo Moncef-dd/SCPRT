@@ -6,8 +6,6 @@ import 'app.css'
 export default function searchEng() {
 
     
-
-
   const style = {
     // center the search-barre inside the parent div
     display: "flex",
@@ -16,8 +14,10 @@ export default function searchEng() {
   }
   return (
     <div className="search-engine">
-      <div className='conainer'>
+      <div className='filters'>
 
+      </div>
+      <div className='conainer'>
         <div  
           className='search-barre'
           style={style} 
@@ -26,19 +26,28 @@ export default function searchEng() {
           <input type='text' placeholder='Search' />
           <button type='submit' 
           style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
             backgroundColor: "blue",
             color: "white",
             padding: "10px 20px",
             border: "none",
             borderRadius: "5px",
             cursor: "pointer",
-            
+
           }} 
            >Search</button>
         </div>
 
         <div className='search-result'>
 
+        </div>
+        <div className='categories-cards'>
+          <ProjectCard /> 
+          <ProjectCard /> 
+          <ProjectCard /> 
+          <ProjectCard /> 
         </div>
 
       </div>
