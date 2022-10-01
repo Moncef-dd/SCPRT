@@ -7,7 +7,6 @@ export default function SearchEng() {
 
     
   const style = {
-    // center the search-barre inside the parent div
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
