@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap"; 
+// import { Container, Row, Col } from "react-bootstrap"; 
 import { ProjectCard } from "./ProjectCard";
 import 'app.css' 
 
-export default function searchEng() {
+export default function SearchEng() {
 
     
   const style = {
