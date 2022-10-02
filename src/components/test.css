@@ -1,0 +1,30 @@
+.containerr {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    right: 40%
+}
+
+.container2 {
+    background: url("/Style6.jpg");
+    background-size: cover;
+}
+
+.container3 {
+    background: url("/styled.jpg");
+    background-size: cover;
+}
+
+.container1 {
+    background: url("/input1.jpg");
+    background-size: cover;
+}
+
+.anime {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
