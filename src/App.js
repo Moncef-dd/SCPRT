@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
-import { Footer } from "./components/Footer";
-import { SearchEngine } from "./components/SearchEngine.js";
+// import { Footer } from "./components/Footer";
+import SearchEngine  from "./components/SearchEngine.js";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <Banner />
       <Projects />
-      <SearchEngine />
-      <Footer />
+      {/* <SearchEngine /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

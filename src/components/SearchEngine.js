@@ -1,9 +1,7 @@
 import React from 'react'
-// import { Container, Row, Col } from "react-bootstrap"; 
 import { ProjectCard } from "./ProjectCard";
-import 'app.css'
 
- const SearchEngine = () => {
+ export default function SearchEngine () {
 
      
   const style = {
@@ -21,8 +19,19 @@ import 'app.css'
           className='search-barre'
           style={style} 
         >
-          <label for="search">Explore</label>
-          <input type='text' placeholder='Search' />
+          {/* <label for="search"><b>Explore</b></label> */}
+          <input type='text'
+           placeholder='Search'
+           style={{width: 500, 
+            height: 50, 
+            marginLeft:20,
+            marginRight:20, 
+            borderRadius:5,
+             // add some padding to the placeholder
+            paddingLeft: 10,
+            border:"1px solid #ccc",
+            }}
+           />
           <button type='submit' 
           style={{
             display: "flex",
@@ -35,19 +44,19 @@ import 'app.css'
             borderRadius: "5px",
             cursor: "pointer",
 
-          }} 
-           >Search</button>
+          }}>
+              Search </button>
         </div>
 
         <div className='search-result'>
 
         </div>
-        <div className='categories-cards'>
+        {/* <div className='categories-cards'>
           <ProjectCard /> 
           <ProjectCard /> 
           <ProjectCard /> 
           <ProjectCard /> 
-        </div>
+        </div> */}
 
       </div>
       
@@ -56,4 +65,6 @@ import 'app.css'
 }
 
 
-export default SearchEngine; 
+
+
+

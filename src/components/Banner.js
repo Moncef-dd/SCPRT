@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h1>{`The Universe does not talk English, `}
+                <h1>{`The Universe does not talk Natural, `}
                  <span className="txt-rotate" dataPeriod="70" data-rotate='[]'><span className="wrap">{text}</span></span></h1>
                   <p>Unlike commun, SCOPART would take you where you you enjoy both of the journey and the destination.</p>
               </div>}
