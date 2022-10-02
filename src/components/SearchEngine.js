@@ -1,11 +1,11 @@
 import React from 'react'
 // import { Container, Row, Col } from "react-bootstrap"; 
 import { ProjectCard } from "./ProjectCard";
-import 'app.css' 
+import 'app.css'
 
-export default function SearchEng() {
+ const SearchEngine = () => {
 
-    
+     
   const style = {
     display: "flex",
     justifyContent: "center",
@@ -56,3 +56,4 @@ export default function SearchEng() {
 }
 
 
+export default SearchEngine; 

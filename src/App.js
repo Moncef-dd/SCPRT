@@ -5,7 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
-import { SearchEngine } from "/home/moncef/Desktop/web-dev-projects/personal-portfolio/src/components/SearchEng.js";
+import { SearchEngine } from "./components/SearchEngine.js";
 
 function App() {
   return (
