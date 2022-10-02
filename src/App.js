@@ -5,8 +5,9 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 // import { Footer } from "./components/Footer";
-import SearchEngine from "./components/SearchEngine.js";
+// import SearchEngine from "./components/SearchEngine.js";
 import Faq from "./components/Faq";
+import Carousel from "./components/Caroussel";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Banner />
 			<Projects />
 			<Faq />
+			{/* <Carousel /> */}
 			{/* <SearchEngine /> */}
 			{/* <Footer /> */}
 		</div>
